@@ -13,7 +13,7 @@ load_dotenv()
 
 
 print("hello")
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="tokensd28")
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="tokensd25")
 
 
 client = AsyncIOMotorClient(os.getenv("MONGO_URI"))
