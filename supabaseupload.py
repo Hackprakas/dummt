@@ -12,7 +12,7 @@ app = FastAPI()
 load_dotenv()
 
 
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="tokensd2")
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="tokensd25")
 
 
 client = AsyncIOMotorClient(os.getenv("MONGO_URI"))
