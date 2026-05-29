@@ -62,7 +62,7 @@ async def get_user_from_token(token: str = Depends(oauth2_scheme)):
 
 
 async def check_user_permissions(user: dict):
-    if not user.get("email"):
+    if not user.get("emails"):
         return {"error": "No user found."}
 
     
