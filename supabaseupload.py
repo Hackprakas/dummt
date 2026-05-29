@@ -16,7 +16,7 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
 
 client = AsyncIOMotorClient(os.getenv("MONGO_URI"))
-db = client["vaayusastra2"]
+db = client["vaayusastra4"]
 users_collection = db["users"]
 products_collection = db["products"]
 
