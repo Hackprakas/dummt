@@ -41,6 +41,9 @@ def specialmain():
 def bruhfunction():
     print("hey this is new the super")   
 
+def testfunction():
+    print("added by test")    
+
 def manfunction():
     print("mainbranch") 
 
