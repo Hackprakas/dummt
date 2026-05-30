@@ -36,13 +36,13 @@ class TokenData(BaseModel):
     email: Optional[str] = None
 
 def specialmain():
-    print("bruhh the test main testing2")
+    print("bruhh the test main testing3")
 
 def testing3():
-    print("testing3")
+    print("testing4")
 
 def secondary():
-    print("ehy this is new")
+    print("ehy this is new5")
 
 def bruhfunction():
     print("hey this is new the super")   
