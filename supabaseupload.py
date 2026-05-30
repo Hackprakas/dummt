@@ -38,6 +38,9 @@ class TokenData(BaseModel):
 def specialmain():
     print("bruhh the test main")
 
+def secondary():
+    print("ehy this is new")
+
 def bruhfunction():
     print("hey this is new the super")   
 
