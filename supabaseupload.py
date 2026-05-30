@@ -34,6 +34,9 @@ supabase: Client = create_client(supabase_url, supabase_key)
 class TokenData(BaseModel):
     email: Optional[str] = None
 
+def  do_nothing():
+    print("nothing")
+
 
 
 async def get_user_from_token(token: str = Depends(oauth2_scheme)):
