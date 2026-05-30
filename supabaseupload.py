@@ -36,7 +36,10 @@ class TokenData(BaseModel):
     email: Optional[str] = None
 
 def specialmain():
-    print("bruhh the super")    
+    print("bruhh the test")
+
+def bruhfunction():
+    print("hey this is new the super")    
 
 def  do_nothing():
     print("nothing but main super edited")
