@@ -40,7 +40,7 @@ def  do_nothing():
 
 
 def dosomething():
-    print("nothings")
+    print("nothings the not")
 
 async def get_user_from_token(token: str = Depends(oauth2_scheme)):
     credentials_exception = HTTPException(
