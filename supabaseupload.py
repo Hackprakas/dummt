@@ -37,6 +37,29 @@ class TokenData(BaseModel):
 
 def specialmain():
     print("bruhh the test main testing3")
+    
+    x = 10
+    y = 20
+    result = x + y
+    print("Sum:", result)
+    
+    for i in range(3):
+        print("Loop:", i)
+    
+    data = ["a", "b", "c"]
+    for item in data:
+        print("Item:", item)
+    
+    if result > 20:
+        print("Result is greater than 20")
+    else:
+        print("Result is small")
+    
+    try:
+        value = int("123")
+        print("Converted:", value)
+    except Exception as e:
+        print("Error:", e)
 
 def testing3():
     print("testing4")
