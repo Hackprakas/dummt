@@ -39,7 +39,10 @@ def specialmain():
     print("bruhh the test")
 
 def bruhfunction():
-    print("hey this is new the super")    
+    print("hey this is new the super")   
+
+def manfunction():
+    print("mainbranch") 
 
 def  do_nothing():
     print("nothing but main super edited")
