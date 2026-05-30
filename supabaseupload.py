@@ -44,6 +44,9 @@ def testing3():
 def secondary():
     print("ehy this is new5")
 
+def iaddedthisfunction():
+    print("I added")
+
 def bruhfunction():
     print("hey this is new the super")   
 
