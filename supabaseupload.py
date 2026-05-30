@@ -36,7 +36,7 @@ class TokenData(BaseModel):
     email: Optional[str] = None
 
 def  do_nothing():
-    print("nothing")
+    print("nothing the main")
 
 
 def dosomething():
