@@ -38,6 +38,9 @@ class TokenData(BaseModel):
 def specialmain():
     print("bruhh the test main testing2")
 
+def testing3():
+    print("testing3")
+
 def secondary():
     print("ehy this is new")
 
