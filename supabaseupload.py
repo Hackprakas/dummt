@@ -35,8 +35,14 @@ supabase: Client = create_client(supabase_url, supabase_key)
 class TokenData(BaseModel):
     email: Optional[str] = None
 
+def specialmain():
+    print("bruhh")    
+
 def  do_nothing():
-    print("nothing but main super")
+    print("nothing but main super edited")
+
+def do_somethingthesuper():
+    print("logic from main")
 
 
 def dosomething():
